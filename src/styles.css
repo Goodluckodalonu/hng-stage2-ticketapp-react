@@ -1,0 +1,18 @@
+:root{--max-w:1440px;--green:#16a34a;--amber:#f59e0b;--gray:#94a3b8}
+*{box-sizing:border-box;font-family:Inter,Arial,Helvetica,sans-serif}
+.container{max-width:var(--max-w);margin:0 auto;padding:20px}
+.header{background:#fff;border-bottom:1px solid #eee}
+.header .container{display:flex;align-items:center;justify-content:space-between}
+.hero{position:relative;padding:60px 0;background:linear-gradient(180deg,#ffffff 0%,#f8fafc 100%);overflow:hidden}
+.hero-inner{max-width:800px}
+.btn{display:inline-block;padding:8px 14px;border-radius:8px;background:#2563eb;color:#fff;text-decoration:none;border:none}
+.btn.ghost{background:#fff;color:#2563eb;border:1px solid #e2e8f0}
+.card{background:#fff;padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06);margin-bottom:12px}
+.auth{max-width:420px;margin:20px auto}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+.ticket-list .ticket{display:flex;flex-direction:column;gap:8px}
+.status.open{color:var(--green)}
+.status.in_progress{color:var(--amber)}
+.status.closed{color:var(--gray)}
+.footer{padding:20px;text-align:center}
+@media(max-width:600px){.header .container{flex-direction:column;gap:10px}}
