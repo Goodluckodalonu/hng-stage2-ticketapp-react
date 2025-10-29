@@ -162,11 +162,11 @@ Validation errors show inline or as toast messages.
 
 ## Related Repositories
 
-| Framework       | Repo Link                                                                                 |
-| --------------- | ----------------------------------------------------------------------------------------- |
+| Framework       | Repo Link                                                                                 | Live Link
+| --------------- | ----------------------------------------------------------------------------------------- | ----------- |
 | Root Repo    | [hng-stage2-ticketapp-root](https://github.com/Goodluckodalonu/hng-stage2-ticketapp-root) |
-| Vue Version  | [hng-stage2-ticketapp-vue](https://github.com/Goodluckodalonu/hng-stage2-ticketapp-vue)   |
-| Twig Version | [hng-stage2-ticketapp-twig](https://github.com/Goodluckodalonu/hng-stage2-ticketapp-twig) |
+| Vue Version  | [hng-stage2-ticketapp-vue](https://github.com/Goodluckodalonu/hng-stage2-ticketapp-vue)   | [Live vue link](https://ticket-app-vue-hng.vercel.app/) |
+| Twig Version | [hng-stage2-ticketapp-twig](https://github.com/Goodluckodalonu/hng-stage2-ticketapp-twig) | [Live twig link](https://ticket-app-twig-hng.onrender.com/) |
 
 ---
 
