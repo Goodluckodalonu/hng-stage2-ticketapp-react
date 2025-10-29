@@ -78,7 +78,7 @@ This version was built using **React + Vite**, styled with **vanilla CSS**, and 
 3. **Start the app**
 
    ```bash
-   npm run de
+   npm run dev
    ```
 
 4. **Open your browser at**
