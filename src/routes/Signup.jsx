@@ -5,8 +5,8 @@ export default function Signup(){
     localStorage.setItem('ticketapp_session','token_example'); window.location.href='/dashboard' }
   return (<form className="card auth" onSubmit={submit}>
     <h2>Signup</h2>
-    <label>Email<input value={email} onChange={e=>setEmail(e.target.value)} /></label>
-    <label>Password<input type="password" value={pw} onChange={e=>setPw(e.target.value)} /></label>
+    <label>Email<input placeholder='ex: goodluck@gmail' value={email} onChange={e=>setEmail(e.target.value)} /></label>
+    <label>Password<input type="password"placeholder='ex: 123456..' value={pw} onChange={e=>setPw(e.target.value)} /></label>
     <button className="btn">Create account</button>
   </form>)
 }

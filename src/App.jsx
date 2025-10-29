@@ -43,7 +43,7 @@ export default function App(){
 function Protected({children}){
   const token = localStorage.getItem('ticketapp_session')
   if(!token){
-    alert('Your session has expired — please log in again.')
+    alert('Your session has expired, please log in again.')
     window.location.href='/auth/login'
     return null
   }
